@@ -2,13 +2,16 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
-  <div class="col-md-6">
-    <img src="{{ site.github.url }}/assets/img/profile.jpeg" alt="Home" style="width: 400px; height: 400px; object-fit: cover;">
-  </div>
-  <div class="col-md-6">
-    {{ content }}
+<div style="max-width: 1200px; margin: 0 auto;">
+  <div class="row g-5 mb-5">
+    <div class="col-md-6">
+      <img src="{{ site.github.url }}/assets/img/profile.jpeg" alt="Home" style="width: 400px; height: 600px; object-fit: cover;">
+    </div>
+    <div class="col-md-6">
+      {{ content }}
+      <div class="mt-4">
+        <a href="{{ site.github.url }}/assets/cv.pdf" class="btn btn-primary" download>Download CV</a>
+      </div>
+    </div>
   </div>
 </div>
-
-{% include publications.html %}

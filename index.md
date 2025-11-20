@@ -5,7 +5,7 @@ title: "Home"
 
 ## About Me
 
-Hello! I'm Junwoo, an undergraduate student passionate about computer science. I am currently working as a research assistant at the AI-Healthcare lab at Sungkyunkwan University (SKKU), advised by Professor Sujee Lee.
+Hello! I'm Junwoo, an undergraduate student passionate about computer science. I am currently working as a research assistant at the AI-Healthcare lab at Sungkyunkwan University (SKKU), advised by Professor Sujee Lee. I also serve as an Organizer for <a href="https://gdg.community.dev/gdg-on-campus-sungkyunkwan-university-seoul-south-korea/" target="_blank">GDG on Campus SKKU</a>.
 
 ## Research Interests
 

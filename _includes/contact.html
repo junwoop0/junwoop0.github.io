@@ -3,16 +3,10 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Contact</h3>
     {% for contact in site.data.settings.contacts %}
     <div class="row g-5 mb-5">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <h4>{{ contact.name }}</h4>
-        <p>{{ contact.title }} | {{ contact.department }}</p>
-        <p>{{ contact.institution }} | {{ contact.institution_address }}</p>
-        <p>Phone: {{ contact.phone }}</p>
-        <p>Email: {{ contact.email }}</p>
-        <p>Office: {{ contact.office }}</p>
-      </div>
-      <div class="col-md-6">
-        <img src="{{ site.github.url }}/{{ contact.image }}" alt="Contact" width="100%">
+        <p>I'm always happy to discuss research opportunities and collaborations.</p>
+        <p>Email: <a href="mailto:jw0528@g.skku.edu">jw0528@g.skku.edu</a> | <a href="mailto:junwooops@gmail.com">junwooops@gmail.com</a></p>
       </div>
     </div>
     {% endfor %}
