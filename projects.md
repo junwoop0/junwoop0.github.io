@@ -11,11 +11,11 @@ title: "Projects"
       <div class="text-muted" style="font-size: 0.9rem;">SKKU</div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4 mb-3">
-      <img src="{{ site.github.url }}/assets/img/NotiSKKU.png" alt="NotiSKKU" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;">
+  <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
+    <div style="flex-shrink: 0;">
+      <img src="{{ site.github.url }}/assets/img/NotiSKKU.png" alt="NotiSKKU" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
     </div>
-    <div class="col-md-8">
+    <div style="flex-grow: 1;">
       <p><strong>Role:</strong> Team Leader</p>
       <p>Description of NotiSKKU project goes here.</p>
       <p><strong>Technologies:</strong> [Add technologies used]</p>
@@ -34,11 +34,11 @@ title: "Projects"
       <div class="text-muted" style="font-size: 0.9rem;">[Organization]</div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4 mb-3">
-      <img src="{{ site.github.url }}/assets/img/project2.jpg" alt="Project 2" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;">
+  <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
+    <div style="flex-shrink: 0;">
+      <img src="{{ site.github.url }}/assets/img/project2.jpg" alt="Project 2" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
     </div>
-    <div class="col-md-8">
+    <div style="flex-grow: 1;">
       <p>Description of your project goes here.</p>
       <p><strong>Technologies:</strong> [Add technologies used]</p>
       <p><a href="#">GitHub Link</a> | <a href="#">Demo</a></p>
@@ -56,11 +56,11 @@ title: "Projects"
       <div class="text-muted" style="font-size: 0.9rem;">[Organization]</div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-4 mb-3">
-      <img src="{{ site.github.url }}/assets/img/project3.jpg" alt="Project 3" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;">
+  <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
+    <div style="flex-shrink: 0;">
+      <img src="{{ site.github.url }}/assets/img/project3.jpg" alt="Project 3" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
     </div>
-    <div class="col-md-8">
+    <div style="flex-grow: 1;">
       <p>Description of your project goes here.</p>
       <p><strong>Technologies:</strong> [Add technologies used]</p>
       <p><a href="#">GitHub Link</a> | <a href="#">Demo</a></p>

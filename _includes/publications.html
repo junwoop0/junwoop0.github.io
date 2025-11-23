@@ -5,11 +5,11 @@
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <div class="publication-item mb-5">
-          <div class="row">
-            <div class="col-md-4 mb-3">
-              <img src="{{ site.github.url }}{{ item.image }}" alt="{{ item.title }}" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;">
+          <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
+            <div style="flex-shrink: 0;">
+              <img src="{{ site.github.url }}{{ item.image }}" alt="{{ item.title }}" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
             </div>
-            <div class="col-md-8">
+            <div style="flex-grow: 1;">
               <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
               <p class="text-muted">{{ item.authors }}</p>
               <p><em>{{ item.venue }}</em></p>
@@ -21,11 +21,11 @@
     {% else %}
       {% for item in site.data.publications.index %}
         <div class="publication-item mb-5">
-          <div class="row">
-            <div class="col-md-4 mb-3">
-              <img src="{{ site.github.url }}{{ item.image }}" alt="{{ item.title }}" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;">
+          <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
+            <div style="flex-shrink: 0;">
+              <img src="{{ site.github.url }}{{ item.image }}" alt="{{ item.title }}" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
             </div>
-            <div class="col-md-8">
+            <div style="flex-grow: 1;">
               <h5><a href="{{ item.url }}">{{ item.title }}</a></h5>
               <p class="text-muted">{{ item.authors }}</p>
               <p><em>{{ item.venue }}</em></p>
