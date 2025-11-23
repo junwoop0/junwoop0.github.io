@@ -1,6 +1,7 @@
-<div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+  <div class="row g-5 mb-5">
+    <div>
+      <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <div class="publication-item mb-5">
@@ -34,5 +35,6 @@
         </div>
       {% endfor %}
     {% endif %}
+    </div>
   </div>
 </div>

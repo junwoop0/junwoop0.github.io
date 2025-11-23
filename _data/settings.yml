@@ -1,7 +1,7 @@
 menu:
 - {name: 'projects', url: '/projects'}
 - {name: 'publications', url: '/publications'}
-- {name: 'honors', url: '/honors'}
+- {name: 'honors & awards', url: '/honors'}
 - {name: 'contact', url: '/contact'}
 
 social:

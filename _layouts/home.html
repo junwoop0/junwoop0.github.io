@@ -3,11 +3,11 @@ layout: default
 ---
 
 <div style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
-  <div class="row g-2 mb-5">
-    <div class="col-md-5">
+  <div class="d-flex flex-column flex-md-row mb-5" style="gap: 30px;">
+    <div style="flex-shrink: 0;">
       <img src="{{ site.github.url }}/assets/img/profile.jpeg" alt="Home" style="width: 100%; max-width: 300px; height: auto; max-height: 450px; object-fit: cover;">
     </div>
-    <div class="col-md-7 d-flex flex-column">
+    <div class="d-flex flex-column" style="flex-grow: 1;">
       {{ content }}
       <div class="mt-auto">
         <a href="{{ site.github.url }}/assets/cv.pdf" class="btn btn-outline-primary" download>Download CV</a>
