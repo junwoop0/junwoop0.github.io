@@ -14,8 +14,6 @@ I am interested in exploring the intersection of technology and real-world appli
 - **AI and Healthcare**: Developing AI systems for healthcare challenges and medical applications
 - **Multi-modal Learning**: Developing models that integrate and learn from multiple data modalities
 
-I am eager to contribute to cutting-edge research and collaborate with faculty and peers to tackle challenging problems in computer science.
-
 ## News
 
 - **[Nov. 2025]** Our paper "MoltiTox: A Multimodal Fusion Model for Molecular Toxicity Prediction" has been accepted for publication in *Frontiers in Toxicology*!
