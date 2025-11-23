@@ -1,5 +1,15 @@
 featured:
-- {name: 'MoltiTox: A MultiModal Fusion Model for Molecular Toxicity Prediction. Frontiers in Toxicology (Under Review)', url: '#'}
+- title: 'MoltiTox: A Multimodal Fusion Model for Molecular Toxicity Prediction'
+  authors: 'J. Park, S. Lee∗'
+  venue: 'Frontiers in Toxicology, accepted for publication, 2025'
+  description: 'A novel multimodal fusion approach that integrates molecular structure and textual information for enhanced toxicity prediction, achieving state-of-the-art performance across multiple toxicity endpoints.'
+  image: '/assets/img/MoltiTox.jpg'
+  url: '#'
 
 index:
-- {name: 'MoltiTox: A MultiModal Fusion Model for Molecular Toxicity Prediction. Frontiers in Toxicology (Under Review)', url: '#'}
+- title: 'MoltiTox: A Multimodal Fusion Model for Molecular Toxicity Prediction'
+  authors: 'J. Park, S. Lee∗'
+  venue: 'Frontiers in Toxicology, accepted for publication, 2025'
+  description: 'A novel multimodal fusion approach that integrates molecular structure and textual information for enhanced toxicity prediction, achieving state-of-the-art performance across multiple toxicity endpoints.'
+  image: '/assets/img/MoltiTox.jpg'
+  url: '#'

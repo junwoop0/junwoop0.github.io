@@ -13,7 +13,7 @@ title: "Projects"
   </div>
   <div class="row">
     <div class="col-md-4 mb-3">
-      <img src="{{ site.github.url }}/assets/img/NotiSKKU.png" alt="NotiSKKU" style="width: 100%; height: auto; border-radius: 8px;">
+      <img src="{{ site.github.url }}/assets/img/NotiSKKU.png" alt="NotiSKKU" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;">
     </div>
     <div class="col-md-8">
       <p><strong>Role:</strong> Team Leader</p>
@@ -36,7 +36,7 @@ title: "Projects"
   </div>
   <div class="row">
     <div class="col-md-4 mb-3">
-      <img src="{{ site.github.url }}/assets/img/project2.jpg" alt="Project 2" style="width: 100%; height: auto; border-radius: 8px;">
+      <img src="{{ site.github.url }}/assets/img/project2.jpg" alt="Project 2" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;">
     </div>
     <div class="col-md-8">
       <p>Description of your project goes here.</p>
@@ -58,7 +58,7 @@ title: "Projects"
   </div>
   <div class="row">
     <div class="col-md-4 mb-3">
-      <img src="{{ site.github.url }}/assets/img/project3.jpg" alt="Project 3" style="width: 100%; height: auto; border-radius: 8px;">
+      <img src="{{ site.github.url }}/assets/img/project3.jpg" alt="Project 3" style="width: 100%; max-width: 300px; height: auto; border-radius: 8px;">
     </div>
     <div class="col-md-8">
       <p>Description of your project goes here.</p>
