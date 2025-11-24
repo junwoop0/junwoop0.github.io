@@ -21,5 +21,8 @@ body a {
 
 h2 {
   font-size: 1.5rem;
-  margin-top: 3rem;
+}
+
+h2:not(:first-of-type) {
+  margin-top: 2.5rem;
 }
