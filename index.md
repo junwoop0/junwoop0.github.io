@@ -11,7 +11,7 @@ Hello! I'm Junwoo, an undergraduate student passionate about computer science. I
 
 I am interested in exploring the intersection of technology and real-world applications, with particular focus on:
 
-- **AI and Healthcare**: Developing AI systems for healthcare challenges and medical applications
+- **AI and Healthcare**: Developing AI systems for healthcare and medical applications
 - **Multi-modal Learning**: Developing models that integrate and learn from multiple data modalities
 
 ## News
