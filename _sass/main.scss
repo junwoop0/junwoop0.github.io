@@ -7,7 +7,12 @@ body {
   background: $backgroundColor;
   color: $bodyColor;
   font-family: $bodyFont;
-  scrollbar-gutter: stable;
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow-y: scroll;
+  }
 }
 
 body a {
