@@ -4,7 +4,7 @@ title: "Projects"
 ---
 
 <div class="project-item mb-5">
-  <div class="d-flex justify-content-between align-items-start mb-2">
+  <div class="d-flex justify-content-between align-items-start mb-1">
     <h4>NotiSKKU</h4>
     <div class="text-end">
       <div class="text-muted">Aug. 2024 – Nov. 2025</div>
@@ -27,7 +27,7 @@ title: "Projects"
 <hr>
 
 <div class="project-item mb-5">
-  <div class="d-flex justify-content-between align-items-start mb-2">
+  <div class="d-flex justify-content-between align-items-start mb-1">
     <h4>[Project Name]</h4>
     <div class="text-end">
       <div class="text-muted">[Start Date] – [End Date]</div>
@@ -49,7 +49,7 @@ title: "Projects"
 <hr>
 
 <div class="project-item mb-5">
-  <div class="d-flex justify-content-between align-items-start mb-2">
+  <div class="d-flex justify-content-between align-items-start mb-1">
     <h4>[Project Name]</h4>
     <div class="text-end">
       <div class="text-muted">[Start Date] – [End Date]</div>
