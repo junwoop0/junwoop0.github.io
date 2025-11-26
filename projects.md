@@ -4,11 +4,11 @@ title: "Projects"
 ---
 
 <div class="project-item mb-5">
-  <div class="d-flex justify-content-between align-items-start mb-3">
+  <div class="d-flex justify-content-between align-items-start mb-2">
     <h4>NotiSKKU</h4>
     <div class="text-end">
       <div class="text-muted">Aug. 2024 – Nov. 2025</div>
-      <div class="text-muted" style="font-size: 0.9rem;">SKKU</div>
+      <div class="text-muted">SKKU</div>
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
@@ -27,11 +27,11 @@ title: "Projects"
 <hr>
 
 <div class="project-item mb-5">
-  <div class="d-flex justify-content-between align-items-start mb-3">
+  <div class="d-flex justify-content-between align-items-start mb-2">
     <h4>[Project Name]</h4>
     <div class="text-end">
       <div class="text-muted">[Start Date] – [End Date]</div>
-      <div class="text-muted" style="font-size: 0.9rem;">[Organization]</div>
+      <div class="text-muted">[Organization]</div>
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
@@ -49,11 +49,11 @@ title: "Projects"
 <hr>
 
 <div class="project-item mb-5">
-  <div class="d-flex justify-content-between align-items-start mb-3">
+  <div class="d-flex justify-content-between align-items-start mb-2">
     <h4>[Project Name]</h4>
     <div class="text-end">
       <div class="text-muted">[Start Date] – [End Date]</div>
-      <div class="text-muted" style="font-size: 0.9rem;">[Organization]</div>
+      <div class="text-muted">[Organization]</div>
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
