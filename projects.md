@@ -12,7 +12,7 @@ title: "Projects"
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
-    <div class="d-flex justify-content-center justify-content-md-start" style="flex-shrink: 0;">
+    <div style="flex-shrink: 0;">
       <img src="{{ site.github.url }}/assets/img/NotiSKKU.png" alt="NotiSKKU" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
@@ -35,7 +35,7 @@ title: "Projects"
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
-    <div class="d-flex justify-content-center justify-content-md-start" style="flex-shrink: 0;">
+    <div style="flex-shrink: 0;">
       <img src="{{ site.github.url }}/assets/img/project2.jpg" alt="Project 2" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
@@ -57,7 +57,7 @@ title: "Projects"
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
-    <div class="d-flex justify-content-center justify-content-md-start" style="flex-shrink: 0;">
+    <div style="flex-shrink: 0;">
       <img src="{{ site.github.url }}/assets/img/project3.jpg" alt="Project 3" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
