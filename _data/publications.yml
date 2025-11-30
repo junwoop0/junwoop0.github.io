@@ -1,6 +1,6 @@
 featured:
 - title: 'MoltiTox: A Multimodal Fusion Model for Molecular Toxicity Prediction'
-  authors: 'J. Park, S. Lee'
+  authors: 'J. Park and S. Lee'
   venue: 'Frontiers in Toxicology, accepted for publication, 2025'
   description: 'A novel multimodal fusion approach that integrates molecular graphs, SMILES strings, 2D images, and ¹³C NMR spectra for enhanced toxicity prediction, achieving state-of-the-art performance on the Tox21 dataset.'
   image: '/assets/img/MoltiTox.jpg'
@@ -8,7 +8,7 @@ featured:
 
 index:
 - title: 'MoltiTox: A Multimodal Fusion Model for Molecular Toxicity Prediction'
-  authors: 'J. Park, S. Lee'
+  authors: 'J. Park and S. Lee'
   venue: 'Frontiers in Toxicology, accepted for publication, 2025'
   description: 'A novel multimodal fusion approach that integrates molecular graphs, SMILES strings, 2D images, and ¹³C NMR spectra for enhanced toxicity prediction, achieving state-of-the-art performance on the Tox21 dataset.'
   image: '/assets/img/MoltiTox.jpg'
