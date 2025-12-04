@@ -4,7 +4,7 @@ featured:
   venue: '<i>Frontiers in Toxicology</i>, accepted, 2025'
   description: 'A novel approach that integrates molecular graphs, SMILES strings, 2D images, and ¹³C NMR spectra for enhanced toxicity prediction, outperforming single-modality baselines on the Tox21 dataset.'
   image: '/assets/img/MoltiTox.jpg'
-  url: '#'
+  url: ''
 
 index:
 - title: 'MoltiTox: a multimodal fusion model for molecular toxicity prediction'
@@ -12,4 +12,4 @@ index:
   venue: '<i>Frontiers in Toxicology</i>, accepted, 2025'
   description: 'A novel approach that integrates molecular graphs, SMILES strings, 2D images, and ¹³C NMR spectra for enhanced toxicity prediction, outperforming single-modality baselines on the Tox21 dataset.'
   image: '/assets/img/MoltiTox.jpg'
-  url: '#'
+  url: ''
