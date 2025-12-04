@@ -16,9 +16,8 @@ title: "Projects"
       <img src="{{ site.github.url }}/assets/img/NotiSKKU.png" alt="NotiSKKU" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
-      <p>Description of NotiSKKU project goes here.</p>
-      <p><strong>Technologies:</strong> [Add technologies used]</p>
-      <p><a href="https://github.com/Team-Notiskku" target="_blank">GitHub</a></p>
+      <p>NotiSKKU is a mobile platform designed for SKKU students, aggregating scattered announcements for each major into a single view. Motivated by a survey of over 60 students, I led a team of four members to tackle this everyday inconvenience. We designed the UI/UX in Figma and built the mobile application using Flutter. The system integrates with a Playwright crawler and Firebase, and was successfully launched on Google Play.</p>
+      <p><a href="https://github.com/Team-Notiskku" target="_blank">GitHub</a> | <a href="https://play.google.com/store/apps/details?id=app.notiskku.mobile&hl=en" target="_blank">Google Play</a></p>
     </div>
   </div>
 </div>
