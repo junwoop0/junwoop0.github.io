@@ -18,4 +18,4 @@ I work at the intersection of computing and real-world problems, with a focus on
 ## News
 
 - **[Nov. 2025]** Our paper "MoltiTox: a multimodal fusion model for molecular toxicity prediction" has been accepted for publication in *Frontiers in Toxicology*!
-- **[Oct. 2025]** Featured in <a href="https://webzine.skku.edu/skkuzine/section/people01.do?mode=list&articleNo=130314" target="_blank">*SKKU Webzine*, Issue 573</a>, Sungkyunkwan University's online magazine!
+- **[Oct. 2025]** Featured in Sungkyunkwan University's online magazine (<a href="https://webzine.skku.edu/skkuzine/section/people01.do?mode=list&articleNo=130314" target="_blank">*SKKU Webzine*, Issue 573</a>)!
