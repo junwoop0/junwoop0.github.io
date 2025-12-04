@@ -10,9 +10,10 @@ Hello! I am Junwoo Park, an undergraduate student in Computer Science and Engine
 ## Research Interests
 
 I work at the intersection of computing and real-world problems, with a focus on:
+{: style="margin-bottom: 0.4rem;" }
 
 - **AI for Healthcare**: Developing robust AI systems for healthcare and biomedical applications.
-- **Multi-modal Learning**: Building models that effectively integrate information from diverse data modalities.
+- **Multimodal Learning**: Building models that effectively integrate information from diverse data modalities.
 
 ## News
 
