@@ -21,6 +21,8 @@ title: "Projects"
   </div>
 </div>
 
+<hr>
+
 <div class="project-item mb-5">
   <div class="d-flex justify-content-between align-items-start mb-1">
     <h4>NotiSKKU</h4>
@@ -46,8 +48,8 @@ title: "Projects"
   <div class="d-flex justify-content-between align-items-start mb-1">
     <h4>VisualVroom</h4>
     <div class="text-end">
-      <div class="text-muted">2024</div>
-      <div class="text-muted">GDG SKKU</div>
+      <div class="text-muted">Apr. 2025 – Aug. 2025</div>
+      <div class="text-muted">SKKU</div>
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
