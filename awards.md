@@ -11,8 +11,8 @@ title: "Awards"
       <p class="mb-0"><a href="https://presidentlist.skku.edu/presidentlist/2025_list.do" target="_blank">View President's List</a></p>
     </div>
     <div class="text-end">
-      <div class="text-muted">Sep. 2025</div>
-      <div class="text-muted" style="font-size: 0.9rem;">Sungkyunkwan University</div>
+      <div class="text-muted">Sungkyunkwan University</div>
+      <div class="text-muted" style="font-size: 1rem;">Sep. 2025</div>
     </div>
   </div>
 </div>
