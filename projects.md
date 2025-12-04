@@ -16,7 +16,6 @@ title: "Projects"
       <img src="{{ site.github.url }}/assets/img/NotiSKKU.png" alt="NotiSKKU" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
-      <p><strong>Role:</strong> Team Leader</p>
       <p>Description of NotiSKKU project goes here.</p>
       <p><strong>Technologies:</strong> [Add technologies used]</p>
       <p><a href="https://github.com/Team-Notiskku" target="_blank">GitHub</a></p>
