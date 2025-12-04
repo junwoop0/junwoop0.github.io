@@ -3,7 +3,7 @@ layout: page
 title: "Awards"
 ---
 
-<div class="honor-item mb-5">
+<div class="honor-item mb-5" style="margin-bottom: 2rem;">
   <div class="d-flex justify-content-between align-items-start">
     <div>
       <h4 class="mb-2">First Place</h4>
@@ -20,7 +20,7 @@ title: "Awards"
 <hr>
 
 
-<div class="honor-item mb-5">
+<div class="honor-item mb-5" style="margin-bottom: 2rem;">
   <div class="d-flex justify-content-between align-items-start">
     <div>
       <h4 class="mb-2">Excellence Award</h4>
@@ -37,7 +37,7 @@ title: "Awards"
 <hr>
 
 
-<div class="honor-item mb-5">
+<div class="honor-item mb-5" style="margin-bottom: 2rem;">
   <div class="d-flex justify-content-between align-items-start">
     <div>
       <h4 class="mb-2">2025 President's List</h4>
@@ -53,7 +53,7 @@ title: "Awards"
 
 <hr>
 
-<div class="honor-item mb-5">
+<div class="honor-item mb-5" style="margin-bottom: 2rem;">
   <div class="d-flex justify-content-between align-items-start">
     <div>
       <h4 class="mb-2">Grand Prize</h4>
