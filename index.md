@@ -9,7 +9,7 @@ Hello! I am Junwoo Park, an undergraduate student in Computer Science and Engine
 
 ## Research Interests
 
-I am interested in exploring the intersection of computational innovation and real-world applications, with particular focus on:
+I am interested in exploring the intersection of computational innovation and real-world applications, with focus on:
 
 - **AI for Healthcare**: Developing robust AI systems for healthcare and biomedical applications.
 - **Multi-modal Learning**: Building models that effectively integrate information from diverse data modalities.
