@@ -11,7 +11,7 @@ title: "Awards"
       <p class="mb-0"><a href="https://github.com/junwooP0/uni-dthon-team9" target="_blank">GitHub</a></p>
     </div>
     <div class="text-end">
-      <div class="text-muted" style="font-size: 1.1rem;">2025 Uni-DTHON</div>
+      <div class="text-muted" style="font-size: 1.1rem; color: #555;">2025 Uni-DTHON</div>
       <div class="text-muted" style="font-size: 1rem;">Nov. 2025</div>
     </div>
   </div>
@@ -28,7 +28,7 @@ title: "Awards"
       <p class="mb-0"><a href="https://skb.skku.edu/eng_swuniv/Gallery.do?mode=view&articleNo=206006" target="_blank">Link</a></p>
     </div>
     <div class="text-end">
-      <div class="text-muted" style="font-size: 1.1rem;">SW High School Creative Science-thon</div>
+      <div class="text-muted" style="font-size: 1.1rem; color: #555;">SW High School Creative Science-thon</div>
       <div class="text-muted" style="font-size: 1rem;">Nov. 2025</div>
     </div>
   </div>
@@ -45,7 +45,7 @@ title: "Awards"
       <p class="mb-0"><a href="https://presidentlist.skku.edu/presidentlist/2025_list.do" target="_blank">View President's List</a></p>
     </div>
     <div class="text-end">
-      <div class="text-muted" style="font-size: 1.1rem;">Sungkyunkwan University</div>
+      <div class="text-muted" style="font-size: 1.1rem; color: #555;">Sungkyunkwan University</div>
       <div class="text-muted" style="font-size: 1rem;">Sep. 2025</div>
     </div>
   </div>
@@ -61,7 +61,7 @@ title: "Awards"
       <p class="mb-0"><a href="https://skb.skku.edu/eng_swuniv/Gallery.do?mode=view&articleNo=206011&article.offset=0&articleLimit=12" target="_blank">Link</a></p>
     </div>
     <div class="text-end">
-      <div class="text-muted" style="font-size: 1.1rem;">ICT Award Korea 2025</div>
+      <div class="text-muted" style="font-size: 1.1rem; color: #555;">ICT Award Korea 2025</div>
       <div class="text-muted" style="font-size: 1rem;">Aug. 2025</div>
     </div>
   </div>
