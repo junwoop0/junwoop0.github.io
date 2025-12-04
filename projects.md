@@ -12,7 +12,7 @@ title: "Projects"
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
-    <div style="flex-shrink: 0;">
+    <div style="flex-shrink: 0; width: 300px;">
       <img src="{{ site.github.url }}/assets/img/SKKU_Character.png" alt="Project SKKU Character" style="width: 100%; max-width: 300px; height: auto; max-height: 200px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
@@ -32,7 +32,7 @@ title: "Projects"
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
-    <div style="flex-shrink: 0;">
+    <div style="flex-shrink: 0; width: 300px;">
       <img src="{{ site.github.url }}/assets/img/NotiSKKU.png" alt="NotiSKKU" style="width: 100%; max-width: 300px; height: auto; max-height: 200px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
@@ -53,7 +53,7 @@ title: "Projects"
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row" style="gap: 40px;">
-    <div style="flex-shrink: 0;">
+    <div style="flex-shrink: 0; width: 300px;">
       <img src="{{ site.github.url }}/assets/img/VisualVroom.jpg" alt="VisualVroom" style="width: 100%; max-width: 300px; height: auto; max-height: 200px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
