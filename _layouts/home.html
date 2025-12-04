@@ -6,6 +6,13 @@ layout: default
   <div class="d-flex flex-column flex-md-row mb-5" style="gap: 40px;">
     <div style="flex-shrink: 0;">
       <img src="{{ site.github.url }}/assets/img/profile.jpeg" alt="Home" style="width: 100%; max-width: 300px; height: auto; max-height: 350px; object-fit: cover;">
+      <div class="d-flex align-items-center" style="gap: 14px; font-size: 1.35rem; margin-top: 12px;">
+        {% for item in site.data.settings.social %}
+          <a href="{{ item.link }}" class="text-reset" target="_blank" rel="noopener" aria-label="{{ item.icon | capitalize }}">
+            <i class="fab fa-{{ item.icon }}"></i>
+          </a>
+        {% endfor %}
+      </div>
     </div>
     <div class="d-flex flex-column" style="flex-grow: 1;">
       {{ content }}
