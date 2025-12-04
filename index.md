@@ -5,14 +5,14 @@ title: "Home"
 
 ## About Me
 
-Hello! I'm Junwoo, an undergraduate student passionate about computer science. I am currently working as a research assistant at the AI-Healthcare lab at Sungkyunkwan University (SKKU), advised by Professor Sujee Lee. I also serve as an Organizer for <a href="https://gdg.community.dev/gdg-on-campus-sungkyunkwan-university-seoul-south-korea/" target="_blank">GDG on Campus SKKU</a>.
+Hello! I am Junwoo Park, an undergraduate student in Computer Science and Engineering. I am currently working as a Research Assistant at the <a href="https://sites.google.com/view/ai-healthcare-lab" target="_blank">AI-Healthcare lab</a> at Sungkyunkwan University (SKKU), advised by Professor Sujee Lee. I also serve as the Lead for <a href="https://gdg.community.dev/gdg-on-campus-sungkyunkwan-university-seoul-south-korea/" target="_blank">GDG on Campus SKKU</a>.
 
 ## Research Interests
 
-I am interested in exploring the intersection of technology and real-world applications, with particular focus on:
+I am interested in exploring the intersection of computational innovation and real-world applications, with particular focus on:
 
-- **AI and Healthcare**: Developing AI systems for healthcare and medical applications
-- **Multi-modal Learning**: Developing models that integrate and learn from multiple data modalities
+- **AI for Healthcare**: Developing robust AI systems for healthcare and biomedical applications.
+- **Multi-modal Learning**: Building models that effectively integrate information from diverse data modalities.
 
 ## News
 
