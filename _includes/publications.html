@@ -10,10 +10,17 @@
               <img src="{{ site.github.url }}{{ item.image }}" alt="{{ item.title }}" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
             </div>
             <div style="flex-grow: 1;">
-              <h5>{{ item.title }}</h5>
+              {% if item.url %}
+                <h5><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h5>
+              {% else %}
+                <h5>{{ item.title }}</h5>
+              {% endif %}
               <p class="text-muted">{{ item.authors }}</p>
               <p>{{ item.venue }}</p>
               <p>{{ item.description }}</p>
+              {% if item.github %}
+                <p><a href="{{ item.github }}" target="_blank">GitHub</a></p>
+              {% endif %}
             </div>
           </div>
         </div>
@@ -26,10 +33,17 @@
               <img src="{{ site.github.url }}{{ item.image }}" alt="{{ item.title }}" style="width: 100%; max-width: 300px; height: auto; max-height: 250px; object-fit: cover; border-radius: 8px;">
             </div>
             <div style="flex-grow: 1;">
-              <h5>{{ item.title }}</h5>
+              {% if item.url %}
+                <h5><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h5>
+              {% else %}
+                <h5>{{ item.title }}</h5>
+              {% endif %}
               <p class="text-muted">{{ item.authors }}</p>
               <p>{{ item.venue }}</p>
               <p>{{ item.description }}</p>
+              {% if item.github %}
+                <p><a href="{{ item.github }}" target="_blank">GitHub</a></p>
+              {% endif %}
             </div>
           </div>
         </div>
