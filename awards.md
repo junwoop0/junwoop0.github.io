@@ -8,7 +8,7 @@ title: "Awards"
     <div>
       <h4 class="mb-2">First Place</h4>
       <p class="mb-2">Awarded in an AI hackathon focused on vision-language tasks.</p>
-      <p class="mb-0"><a href="https://github.com/junwooP0/uni-dthon-team9" target="_blank">GitHub</a></p>
+      <p class="mb-0"><a href="https://github.com/junwoop0/uni-dthon-team9" target="_blank">GitHub</a></p>
     </div>
     <div class="text-end">
       <div class="text-muted" style="font-size: 1.1rem; color: #555;">2025 Uni-DTHON</div>
