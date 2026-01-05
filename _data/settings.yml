@@ -5,8 +5,8 @@ menu:
 - {name: 'contact', url: '/contact'}
 
 social:
-- {icon: 'github', link: 'https://github.com/junwooP0'}
+- {icon: 'github', link: 'https://github.com/junwoop0'}
 - {icon: 'linkedin', link: 'https://www.linkedin.com/in/pjw00/'}
 
 contacts:
-- {name: 'Junwoo Park', title: '', department: '', institution: '', institution_address: '', phone: '', email: 'jw0528@g.skku.edu | junwooops@gmail.com', office: '', image: 'assets/img/profile.jpeg'}
+- {name: 'Junwoo Park', title: '', department: '', institution: '', institution_address: '', phone: '', email: 'jw0528@g.skku.edu', office: '', image: 'assets/img/profile.jpeg'}
