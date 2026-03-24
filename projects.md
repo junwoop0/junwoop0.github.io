@@ -16,7 +16,8 @@ title: "Projects"
       <img src="{{ site.github.url }}/assets/img/SKKU_Character.png" alt="Project SKKU Character" style="width: 100%; max-width: 300px; height: auto; max-height: 200px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
-      <p>Project SKKU Character is a generative AI platform designed to revitalize the university's mascots by transforming them from static icons into dynamic content. We are developing the system that allows students to create mascot artwork through text prompts. The platform integrates an image generative model with a community gallery, fostering a participatory culture where students act as both creators and consumers of university identity.</p>
+      <p>Project SKKU Character is an AI platform where users can create and share artwork based on SKKU's mascot characters. Students can generate diverse images through text prompts and share their results in a community gallery. I am currently developing a generative AI model that accurately captures user intent and integrating it with a FastAPI backend.</p>
+      <p><a href="https://skku.character.army/" target="_blank">Website</a></p>
     </div>
   </div>
 </div>
@@ -36,7 +37,7 @@ title: "Projects"
       <img src="{{ site.github.url }}/assets/img/NotiSKKU.png" alt="NotiSKKU" style="width: 100%; max-width: 300px; height: auto; max-height: 200px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
-      <p>NotiSKKU is a mobile platform designed for SKKU students, aggregating scattered announcements for each major into a single view. Motivated by a survey of over 60 students, I led a team of four members to tackle this everyday inconvenience. We designed the UI/UX in Figma and built the mobile application using Flutter. The system integrates with a Playwright crawler and Firebase, and was successfully launched on Google Play.</p>
+      <p>NotiSKKU is a mobile platform designed for SKKU students, gathering scattered announcements for each major into a single view. Motivated by a survey of over 60 students, I led a team of four members to tackle this everyday inconvenience. We designed the UI/UX in Figma and built the mobile application using Flutter. The system integrates with a Playwright crawler and Firebase, and was successfully launched on Google Play.</p>
       <p><a href="https://github.com/Team-Notiskku" target="_blank">GitHub</a> | <a href="https://play.google.com/store/apps/details?id=app.notiskku.mobile&hl=en" target="_blank">Google Play</a></p>
     </div>
   </div>
