@@ -16,7 +16,7 @@ title: "Projects"
       <img src="{{ site.github.url }}/assets/img/SKKU_Character.png" alt="Project SKKU Character" style="width: 100%; max-width: 300px; height: auto; max-height: 200px; object-fit: cover; border-radius: 8px;">
     </div>
     <div style="flex-grow: 1;">
-      <p>Project SKKU Character is an AI platform where users can create and share artwork based on SKKU's mascot characters. Students can generate diverse images through text prompts and share their results in a community gallery. I am currently developing a generative AI model that accurately captures user intent and integrating it with a FastAPI backend.</p>
+      <p>Project SKKU Character is an AI platform where users can create and share artwork based on SKKU's mascot characters. Students can generate diverse images through text prompts and share their results in a community gallery. I am developing a generative AI model that accurately captures user intent and integrating it with a FastAPI backend.</p>
       <p><a href="https://skku.character.army/" target="_blank">Website</a></p>
     </div>
   </div>
