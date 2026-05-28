@@ -13,7 +13,7 @@ I work at the intersection of computing and real-world problems, with a focus on
 {: style="margin-bottom: 0.4rem;" }
 
 - **AI for Healthcare**: Developing robust AI systems for healthcare and biomedical applications.
-- **Multimodal Learning**: Building models that effectively integrate information from diverse data modalities.
+- **Multimodal LLMs**: Building and instruction-tuning LLMs that integrate information across diverse data modalities.
 
 ## News
 
