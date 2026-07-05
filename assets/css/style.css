@@ -93,6 +93,13 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-
 .site-name {
   color: var(--text);
   font-size: 1.05rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+.site-header.scrolled .site-name {
+  opacity: 1;
+  pointer-events: auto;
 }
 .site-name:hover { color: var(--text); text-decoration: none; }
 
@@ -124,8 +131,14 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-
 }
 
 .hero-role {
-  margin: 0 0 1.1rem;
+  margin: 0 0 0.25rem;
   font-weight: 500;
+}
+
+.hero-email {
+  margin: 0 0 1.1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .hero-photo {
@@ -211,7 +224,7 @@ h3 {
   white-space: nowrap;
 }
 
-/* ----- generic rows (education / experience / awards) ----- */
+/* ----- media items (publications / projects) ----- */
 
 .item-list > * {
   padding: 1.25rem 0;
@@ -219,40 +232,12 @@ h3 {
 }
 .item-list > *:last-child { border-bottom: none; }
 
-.row-item {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-}
-
-.row-main { min-width: 0; }
-
-.row-sub {
-  margin: 0.15rem 0 0;
-  color: var(--muted);
-  font-size: 0.925rem;
-}
-
-.row-side {
-  flex-shrink: 0;
-  text-align: right;
-  color: var(--muted);
-  font-size: 0.875rem;
-  font-variant-numeric: tabular-nums;
-  line-height: 1.5;
-  padding-top: 0.2rem;
-}
-
-/* ----- media items (publications / projects) ----- */
-
 .media-item {
   display: grid;
   grid-template-columns: 200px 1fr;
   gap: 1.6rem;
   padding: 1.5rem 0;
 }
-.media-item.no-thumb { grid-template-columns: 1fr; }
-
 section > .media-item { border: none; }  /* single publication: no divider needed */
 
 .media-thumb {
@@ -306,19 +291,11 @@ section > .media-item { border: none; }  /* single publication: no divider neede
 }
 
 .footer-inner {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 0.5rem 1.5rem;
   padding-top: 1.4rem;
   padding-bottom: 2.2rem;
   font-size: 0.85rem;
   color: var(--muted);
 }
-
-.footer-links { display: flex; gap: 1.25rem; }
-.footer-links a { color: var(--muted); }
-.footer-links a:hover { color: var(--accent); }
 
 /* ----- responsive ----- */
 
@@ -334,11 +311,6 @@ section > .media-item { border: none; }  /* single publication: no divider neede
     width: 140px;
   }
   .hero h1 { font-size: 2rem; }
-
-  .row-item { flex-direction: column; gap: 0.2rem; }
-  .row-side { text-align: left; padding-top: 0.1rem; }
-  .row-side div { display: inline; }
-  .row-side div + div::before { content: " · "; }
 
   .media-item { grid-template-columns: 1fr; gap: 1rem; }
   .media-thumb { max-width: 400px; }
