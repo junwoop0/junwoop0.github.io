@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <title>Junwoo Park</title>
-  <meta name="description" content="Junwoo Park — M.S. student in Computer Science at UC Irvine. Research interests in AI for healthcare and multimodal learning.">
+  <meta name="description" content="Junwoo Park — M.S. student in Computer Science at UC Irvine. Research interests in multimodal AI, embodied agents, and AI safety and alignment.">
   <meta property="og:title" content="Junwoo Park">
-  <meta property="og:description" content="M.S. student in Computer Science at UC Irvine. AI for healthcare · multimodal learning.">
+  <meta property="og:description" content="M.S. student in Computer Science at UC Irvine. Multimodal AI · embodied agents · AI safety and alignment.">
   <meta property="og:url" content="https://junwoop0.github.io/">
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
   <link rel="icon" href="/assets/favicon.ico" sizes="48x48">
@@ -19,10 +19,12 @@
 </head>
 <body>
 
+<a class="skip-link" href="#top">Skip to content</a>
+
 <header class="site-header">
   <div class="container header-inner">
     <a class="site-name" href="#top">Junwoo Park</a>
-    <nav class="site-nav">
+    <nav class="site-nav" aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#news">News</a>
       <a href="#publications">Publications</a>
@@ -31,63 +33,72 @@
   </div>
 </header>
 
-<main class="container" id="top">
+<main class="container" id="top" tabindex="-1">
 
   <!-- ============ About ============ -->
-  <section class="hero" id="about">
+  <section class="hero" id="about" aria-labelledby="name">
     <div class="hero-top">
       <div class="hero-text">
-        <h1>Junwoo Park</h1>
+        <h1 id="name">Junwoo Park</h1>
         <p class="hero-role">M.S. student in Computer Science at UC Irvine</p>
-        <p class="hero-email">junwoop5@uci.edu</p>
-        <p>
-          I am an incoming M.S. student in Computer Science at the University of California, Irvine.
-          I received my B.S. in Computer Science and Engineering from Sungkyunkwan University (SKKU),
-          where I work as a research assistant at the AI-Healthcare Lab,
-          advised by Prof. Sujee Lee.
-        </p>
+        <p class="hero-email"><a href="mailto:junwoop5@uci.edu">junwoop5@uci.edu</a></p>
+        <div class="hero-links">
+          <a class="pill" href="mailto:junwoop5@uci.edu">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email
+          </a>
+          <a class="pill" href="/assets/Junwoo_Park_CV.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            CV
+          </a>
+          <a class="pill" href="https://scholar.google.com/citations?user=sdrdSe8AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 9 10-5 10 5-10 5-10-5Z"/><path d="M6 11v6c3 3 9 3 12 0v-6M22 9v7"/></svg>
+            Google Scholar
+          </a>
+          <a class="pill" href="https://github.com/junwoop0" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+            GitHub
+          </a>
+          <a class="pill" href="https://www.linkedin.com/in/pjw00/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+            LinkedIn
+          </a>
+        </div>
       </div>
-      <img class="hero-photo" src="/assets/img/profile.jpeg" alt="Portrait of Junwoo Park">
+      <img class="hero-photo" src="/assets/img/profile.jpeg" width="176" height="176" alt="Portrait of Junwoo Park">
     </div>
 
-    <p>My research interests center on:</p>
-    <ul class="interests">
-      <li><strong>AI for healthcare</strong>: building robust AI systems for healthcare and biomedical applications.</li>
-      <li><strong>Multimodal LLMs</strong>: adapting language models to diverse data modalities.</li>
-    </ul>
-
-    <p>
-      Outside research, I like building things people actually use, from a campus announcement app to an AI platform for my university’s mascot. I also served as president of
-      Google Developer Groups on Campus at SKKU.
-    </p>
-
-    <div class="hero-links">
-      <a class="pill" href="mailto:junwoop5@uci.edu">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        Email
-      </a>
-      <a class="pill" href="/assets/Junwoo_Park_CV.pdf" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-        CV
-      </a>
-      <a class="pill" href="https://github.com/junwoop0" target="_blank" rel="noopener">
-        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-        GitHub
-      </a>
-      <a class="pill" href="https://www.linkedin.com/in/pjw00/" target="_blank" rel="noopener">
-        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
-        LinkedIn
-      </a>
+    <div class="hero-bio">
+      <p>
+        My research interests lie in <strong>multimodal AI</strong> and the <strong>safety and alignment of embodied agents</strong>.
+        I conduct research under the guidance of <a href="https://liweijiang.github.io/" target="_blank" rel="noopener">Dr. Liwei Jiang</a>.
+      </p>
+      <p>
+        I received my B.S. in Computer Science and Engineering from Sungkyunkwan University (SKKU),
+        where I began my research with Prof. Sujee Lee at the
+        <a href="https://skku-aihclab.github.io/aihc-lab/" target="_blank" rel="noopener">AI-Healthcare Lab</a>.
+      </p>
+      <p class="hero-aside">
+        Outside research, I build apps for campus communities and previously led Google Developer Groups on Campus at SKKU.
+      </p>
     </div>
   </section>
 
   <!-- ============ News ============ -->
   <section id="news">
-    <h2>News</h2>
-    <ul class="news-list">
+    <div class="section-heading">
+      <h2 id="news-heading">News</h2>
+      <span class="section-note" aria-hidden="true">Scroll for more <span class="scroll-arrow">↓</span></span>
+    </div>
+    <div class="news-scroll" tabindex="0" role="region" aria-labelledby="news-heading">
+      <ul class="news-list">
       <li>
-        <span class="news-date">Mar. 2026</span>
-        <span>I will be joining <strong>UC Irvine</strong> as an M.S. student in Computer Science this fall!</span>
+        <span class="news-date">Sep. 2026</span>
+        <span>I started my M.S. in Computer Science at <strong>UC Irvine</strong>.</span>
+      </li>
+      <li>
+        <span class="news-date">Aug. 2026</span>
+        <span>Our preprint <a href="https://arxiv.org/abs/2608.10480" target="_blank" rel="noopener">MR-MoL</a> is now available on arXiv.</span>
       </li>
       <li>
         <span class="news-date">Feb. 2026</span>
@@ -117,53 +128,76 @@
         <span class="news-date">Feb. 2025</span>
         <span>Started as an undergraduate researcher at the SKKU <a href="https://skku-aihclab.github.io/aihc-lab/" target="_blank" rel="noopener">AI-Healthcare Lab</a>.</span>
       </li>
-    </ul>
+      </ul>
+    </div>
   </section>
 
   <!-- ============ Publications ============ -->
-  <section id="publications">
-    <h2>Publications</h2>
-    <div class="media-item">
-      <img class="media-thumb figure" src="/assets/img/MoltiTox.jpg" alt="MoltiTox model architecture">
-      <div class="media-body">
-        <h3>MoltiTox: a multimodal fusion model for molecular toxicity prediction</h3>
-        <p class="media-meta"><strong>Junwoo Park</strong>, Sujee Lee</p>
-        <p class="media-meta"><em>Frontiers in Toxicology</em>, 2025</p>
-        <p class="media-links">
-          <a href="https://doi.org/10.3389/ftox.2025.1720651" target="_blank" rel="noopener">Paper</a>
-          <a href="https://github.com/skku-aihclab/proj25-molecule-toxicity-prediction" target="_blank" rel="noopener">Code</a>
-        </p>
-      </div>
+  <section id="publications" aria-labelledby="publications-heading">
+    <div class="section-heading">
+      <h2 id="publications-heading">Publications</h2>
+    </div>
+    <div class="publication-list">
+      <article class="publication-item">
+        <a class="figure-link" href="/assets/img/MR-MoL.pdf" target="_blank" rel="noopener" aria-label="View the MR-MoL architecture figure (PDF)">
+          <img class="publication-thumb" src="/assets/img/MR-MoL.png" width="502" height="241" loading="lazy" alt="MR-MoL model architecture">
+        </a>
+        <div class="media-body">
+          <h3><a href="https://arxiv.org/abs/2608.10480" target="_blank" rel="noopener">Multi-Granular Rationale-Guided Molecular LLM for Property Prediction</a></h3>
+          <p class="publication-authors"><strong>Junwoo Park</strong>, Minyoung Shin, Cheol Soon Lee, Sujee Lee</p>
+          <p class="media-meta"><em>arXiv preprint</em>, 2026</p>
+          <p class="media-links">
+            <a href="https://arxiv.org/abs/2608.10480" target="_blank" rel="noopener">Paper</a>
+            <a href="https://github.com/skku-aihclab/MR-MoL" target="_blank" rel="noopener">Code</a>
+          </p>
+        </div>
+      </article>
+      <article class="publication-item">
+        <a class="figure-link" href="/assets/img/MoltiTox.jpg" target="_blank" rel="noopener" aria-label="View the MoltiTox architecture figure">
+          <img class="publication-thumb" src="/assets/img/MoltiTox.jpg" loading="lazy" alt="MoltiTox model architecture">
+        </a>
+        <div class="media-body">
+          <h3><a href="https://doi.org/10.3389/ftox.2025.1720651" target="_blank" rel="noopener">MoltiTox: a multimodal fusion model for molecular toxicity prediction</a></h3>
+          <p class="publication-authors"><strong>Junwoo Park</strong>, Sujee Lee</p>
+          <p class="media-meta"><em>Frontiers in Toxicology</em>, 2025</p>
+          <p class="media-links">
+            <a href="https://doi.org/10.3389/ftox.2025.1720651" target="_blank" rel="noopener">Paper</a>
+            <a href="https://github.com/skku-aihclab/proj25-molecule-toxicity-prediction" target="_blank" rel="noopener">Code</a>
+          </p>
+        </div>
+      </article>
     </div>
   </section>
 
   <!-- ============ Projects ============ -->
   <section id="projects">
-    <h2>Projects</h2>
+    <div class="section-heading">
+      <h2>Selected Projects</h2>
+    </div>
     <div class="item-list">
 
       <div class="media-item">
-        <img class="media-thumb" src="/assets/img/SKKU_Character.png" alt="Project SKKU Character">
+        <img class="media-thumb" src="/assets/img/SKKU_Character.png" alt="Project SKKU Character" loading="lazy">
         <div class="media-body">
           <div class="media-head">
             <h3>Project SKKU Character</h3>
             <span class="media-date">Oct. 2025 – Feb. 2026</span>
           </div>
           <p class="media-meta">AI platform for SKKU’s mascot characters</p>
-          <p>An AI platform where students create and share artwork of SKKU’s mascot from text prompts. I fine-tuned a FLUX image-generation model on mascot datasets and built the FastAPI backend serving generation requests, funded by the university entrepreneurship program.</p>
+          <p>I fine-tuned FLUX on mascot images and built a FastAPI backend for students to generate and share artwork from text prompts, supported by the university’s entrepreneurship program.</p>
           <p class="media-links"><a href="https://skku.character.army/" target="_blank" rel="noopener">Website</a></p>
         </div>
       </div>
 
       <div class="media-item">
-        <img class="media-thumb" src="/assets/img/NotiSKKU.png" alt="NotiSKKU app">
+        <img class="media-thumb" src="/assets/img/NotiSKKU.png" alt="NotiSKKU app" loading="lazy">
         <div class="media-body">
           <div class="media-head">
             <h3>NotiSKKU</h3>
             <span class="media-date">Aug. 2024 – Nov. 2025</span>
           </div>
           <p class="media-meta">Student announcement app</p>
-          <p>A mobile app that gathers scattered campus announcements into a single view, motivated by a survey of 60+ students. I led a four-member team, designed the UI/UX in Figma, and built the app in Flutter on top of a Playwright crawler and Firebase. Launched on Google Play.</p>
+          <p>I led a four-person team to bring campus announcements into one app, informed by a survey of 60+ students. Built with Flutter, Playwright, and Firebase; released on Google Play.</p>
           <p class="media-links">
             <a href="https://github.com/Team-Notiskku" target="_blank" rel="noopener">Code</a>
             <a href="https://play.google.com/store/apps/details?id=app.notiskku.mobile&hl=en" target="_blank" rel="noopener">Google Play</a>
@@ -172,14 +206,14 @@
       </div>
 
       <div class="media-item">
-        <img class="media-thumb" src="/assets/img/VisualVroom.jpg" alt="VisualVroom system">
+        <img class="media-thumb" src="/assets/img/VisualVroom.jpg" alt="VisualVroom system" loading="lazy">
         <div class="media-body">
           <div class="media-head">
             <h3>VisualVroom</h3>
             <span class="media-date">Apr. 2025 – Aug. 2025</span>
           </div>
-          <p class="media-meta">Alert system for hearing-impaired drivers</p>
-          <p>A real-time auditory alert system for deaf drivers. We used a Vision Transformer on audio spectrograms to classify both the type (siren, horn) and direction of sounds at 83.9% accuracy, delivering haptic alerts through a smartwatch. In-car communication is supported by Google Speech-to-Text and a Gemini-powered speech-to-sign feature.</p>
+          <p class="media-meta">Haptic alerts for deaf and hard-of-hearing drivers</p>
+          <p>We used a Vision Transformer on audio spectrograms to jointly classify sound type and direction with 83.9% accuracy, delivering real-time haptic alerts through a smartwatch.</p>
           <p class="media-links">
             <a href="https://github.com/GDG-SKKU/VisualVroom_Android_GDG" target="_blank" rel="noopener">Code</a>
             <a href="https://youtu.be/BQmdU7jwddo" target="_blank" rel="noopener">Demo</a>
@@ -199,12 +233,10 @@
 </footer>
 
 <script>
-  // Scrollspy + header name reveal (the name appears once the hero title scrolls away).
+  // Keep section navigation in sync with the page scroll position.
   (function () {
     var links = Array.prototype.slice.call(document.querySelectorAll('.site-nav a[href^="#"]'));
     var sections = links.map(function (a) { return document.querySelector(a.hash); });
-    var header = document.querySelector('.site-header');
-    var heroTitle = document.querySelector('.hero h1');
 
     function update() {
       var ref = window.scrollY + window.innerHeight * 0.35;
@@ -214,10 +246,12 @@
         current = sections[sections.length - 1];
       }
       links.forEach(function (a) {
-        a.classList.toggle('active', a.hash === '#' + current.id);
+        var active = a.hash === '#' + current.id;
+        a.classList.toggle('active', active);
+        if (active) a.setAttribute('aria-current', 'location');
+        else a.removeAttribute('aria-current');
       });
 
-      header.classList.toggle('scrolled', heroTitle.getBoundingClientRect().bottom < 60);
     }
 
     window.addEventListener('scroll', update, { passive: true });
